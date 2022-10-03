@@ -19,6 +19,7 @@ function GifSearch({ setSearch }) {
         onClick={(e) => {
           e.preventDefault();
           setSearch(input);
+          setInput("");
         }}
         type="submit"
       >
